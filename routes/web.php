@@ -4,6 +4,19 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\PreRegistroController;
+use App\Http\Controllers\SupplierController;
+use App\Http\Controllers\InventoryController;
+use App\Http\Controllers\ClientController;
+use App\Http\Controllers\AppointmentController;
+use App\Http\Controllers\DepartmentController;
+use App\Http\Controllers\EmployeeController;
+use App\Http\Controllers\PositionController;
+use App\Models\Department;
+use App\Models\Employee;
+use App\Models\Inventory;
+use App\Models\Position;
+use App\Models\Supplier;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -24,3 +37,10 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::resource('products', ProductController::class);
 Route::resource('preregistros', PreRegistroController::class);
+Route::resource('suppliers', SupplierController::class);
+Route::resource('inventories', InventoryController::class);
+Route::resource('clients', ClientController::class);
+Route::resource('appointments', AppointmentController::class);
+Route::resource('departments', DepartmentController::class);
+Route::resource('positions', PositionController::class);
+Route::resource('employees', EmployeeController::class);

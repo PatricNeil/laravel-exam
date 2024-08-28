@@ -338,64 +338,64 @@ return [
             'url' => 'products',
             'icon' => 'fas fa-fw fa-lock',
         ],
+        //LABORATORIOS
         [
             'text' => 'Pre Registro',
             'url' => 'preregistros',
             'icon' => 'fas fa-fw fa-lock',
         ],
         [
-            'text' => 'multilevel',
+            'text' => 'Laboratorio 3',
             'icon' => 'fas fa-fw fa-share',
             'submenu' => [
                 [
-                    'text' => 'level_one',
-                    'url' => '#',
+                    'text' => 'Proveedores',
+                    'icon_color' => 'cyan',
+                    'url' => 'suppliers',
                 ],
                 [
-                    'text' => 'level_one',
-                    'url' => '#',
-                    'submenu' => [
-                        [
-                            'text' => 'level_two',
-                            'url' => '#',
-                        ],
-                        [
-                            'text' => 'level_two',
-                            'url' => '#',
-                            'submenu' => [
-                                [
-                                    'text' => 'level_three',
-                                    'url' => '#',
-                                ],
-                                [
-                                    'text' => 'level_three',
-                                    'url' => '#',
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                [
-                    'text' => 'level_one',
-                    'url' => '#',
+                    'text' => 'Inventarios',
+                    'icon_color' => 'cyan',
+                    'url' => 'inventories',
                 ],
             ],
         ],
-        ['header' => 'labels'],
         [
-            'text' => 'important',
-            'icon_color' => 'red',
-            'url' => '#',
+            'text' => 'Laboratorio 4',
+            'icon' => 'fas fa-fw fa-share',
+            'submenu' => [
+                [
+                    'text' => 'Clientes',
+                    'icon_color' => 'cyan',
+                    'url' => 'clients',
+                ],
+                [
+                    'text' => 'Citas',
+                    'icon_color' => 'cyan',
+                    'url' => 'appointments',
+                ],
+            ],
         ],
         [
-            'text' => 'warning',
-            'icon_color' => 'yellow',
-            'url' => '#',
-        ],
-        [
-            'text' => 'information',
-            'icon_color' => 'cyan',
-            'url' => '#',
+            'text' => 'Laboratorio 5',
+            'icon' => 'fas fa-fw fa-share',
+            'submenu' => [
+                [
+                    'text' => 'Departamentos',
+                    'icon_color' => 'cyan',
+                    'url' => 'departments',
+                ],
+                [
+                    'text' => 'Cargos',
+                    'icon_color' => 'cyan',
+                    'url' => 'positions',
+                ],
+                [
+                    'text' => 'Empleados',
+                    'icon_color' => 'cyan',
+                    'url' => 'employees',
+                ],
+            ],
         ],
     ],
 

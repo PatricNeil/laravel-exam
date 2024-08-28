@@ -1,13 +1,13 @@
 @extends('adminlte::page')
 
-@section('title','Modificar producto')
+@section('title','Ver producto')
 
 @section('content_header')
-    <h1>Editar Producto</h1>
+    <h1>Ver Producto</h1>
 @stop
 @section('content')
 
-    <div class="card">
+    <div class="card bg-gradient-dark">
         <div class="card-header">
             <h3 class="card-title">{{$product->name}}</h3>
         </div>
