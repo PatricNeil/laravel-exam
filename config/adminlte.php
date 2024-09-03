@@ -397,6 +397,27 @@ return [
                 ],
             ],
         ],
+        [
+            'text' => 'Evaluacion Final',
+            'icon' => 'fas fa-fw fa-share',
+            'submenu' => [
+                [
+                    'text' => 'Estudiantes',
+                    'icon_color' => 'cyan',
+                    'url' => 'estudiantes',
+                ],
+                [
+                    'text' => 'Cursos',
+                    'icon_color' => 'cyan',
+                    'url' => 'cursos',
+                ],
+                [
+                    'text' => 'Inscripciones',
+                    'icon_color' => 'cyan',
+                    'url' => 'inscripciones',
+                ],
+            ],
+        ],
     ],
 
     /*
